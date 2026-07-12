@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="루핏 고객지원 및 문의 안내" />
+    <title>루핏 고객지원</title>
+    <style>
+      :root { color-scheme: light dark; --bg:#f7f7f4; --fg:#171719; --muted:#66666d; --line:#deded8; --card:#fff; --accent:#bdf453; }
+      @media (prefers-color-scheme: dark) { :root { --bg:#09090a; --fg:#f4f4f0; --muted:#aaaab2; --line:#2a2a2e; --card:#151517; } }
+      * { box-sizing: border-box; }
+      body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; line-height:1.7; word-break:keep-all; }
+      main { max-width:760px; margin:0 auto; padding:56px 22px 72px; }
+      nav { display:flex; gap:18px; margin-bottom:40px; font-size:14px; font-weight:700; }
+      a { color:inherit; }
+      h1 { margin:0 0 16px; font-size:clamp(34px,8vw,52px); letter-spacing:-0.03em; }
+      .intro { color:var(--muted); font-size:18px; }
+      .card { margin-top:30px; padding:24px; border:1px solid var(--line); border-radius:20px; background:var(--card); }
+      .button { display:inline-block; margin-top:8px; padding:12px 18px; border-radius:999px; background:var(--accent); color:#171719; font-weight:800; text-decoration:none; }
+      h2 { margin:38px 0 10px; font-size:22px; }
+      ul { padding-left:22px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav aria-label="문서 메뉴">
+        <a href="../">루핏</a>
+        <a href="../privacy/">개인정보 처리방침</a>
+        <a href="../terms/">이용약관</a>
+      </nav>
+      <h1>루핏 고객지원</h1>
+      <p class="intro">앱 사용 중 발생한 문제, 의견, 기능 제안은 이메일로 보내주세요.</p>
+      <section class="card">
+        <strong>문의 이메일</strong>
+        <p><a href="mailto:support@physiquehub.kr">support@physiquehub.kr</a></p>
+        <a class="button" href="mailto:support@physiquehub.kr?subject=%EB%A3%A8%ED%95%8F%20%EB%AC%B8%EC%9D%98">이메일 보내기</a>
+      </section>
+      <h2>문의 시 포함하면 좋은 정보</h2>
+      <ul>
+        <li>사용 중인 iPhone 모델과 iOS 버전</li>
+        <li>문제가 발생한 화면과 재현 순서</li>
+        <li>가능한 경우 개인정보가 포함되지 않은 화면 캡처</li>
+      </ul>
+      <h2>데이터 안내</h2>
+      <p>
+        현재 루핏의 운동 기록은 기기에 로컬로 저장됩니다. 피지크허브는 이메일 문의만으로
+        이용자의 기기 안에 저장된 운동 기록을 조회하거나 복구할 수 없습니다.
+      </p>
+    </main>
+  </body>
+</html>
