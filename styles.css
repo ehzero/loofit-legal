@@ -45,6 +45,21 @@ header {
   margin-bottom: 36px;
 }
 
+.document-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin: 0 0 12px;
+  color: #666;
+  font-size: 14px;
+}
+
+.document-meta span + span::before {
+  margin-right: 14px;
+  color: #aaa;
+  content: "·";
+}
+
 h1,
 h2,
 h3 {
@@ -123,6 +138,56 @@ th {
   margin-top: 18px;
 }
 
+.version-panel {
+  margin: 24px 0 34px;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+}
+
+.version-panel p,
+.version-panel ul {
+  margin-bottom: 0;
+}
+
+.version-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  margin: 6px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.version-links li {
+  margin: 0;
+}
+
+.version-current {
+  font-weight: 700;
+}
+
+.notice {
+  margin: 20px 0;
+  padding: 14px 16px;
+  border-left: 4px solid #555;
+  background: #f7f7f7;
+}
+
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.table-scroll table {
+  min-width: 640px;
+}
+
+.change-list time {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
 .grid {
   margin: 30px 0;
   border-top: 1px solid #bbb;
@@ -181,5 +246,17 @@ footer {
   th,
   td {
     padding: 8px;
+  }
+
+  .document-meta {
+    display: block;
+  }
+
+  .document-meta span {
+    display: block;
+  }
+
+  .document-meta span + span::before {
+    content: none;
   }
 }
