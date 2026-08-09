@@ -1,4 +1,10 @@
-# Loofit legal and support
+# Loofit legal and support (archived)
+
+> **This site has moved to <https://loofit.app>.** The legal and customer-support pages are now published from the `apps/website/public` directory of the main Loofit repository. Every page here declares a canonical URL and redirects to its counterpart on `loofit.app`.
+>
+> **Do not delete this repository or disable GitHub Pages.** Loofit 1.1.0 and earlier ship these URLs compiled into the binary, and the App Store listing for 1.1.0 points here. Removing the site breaks the in-app legal, support, and account-deletion links for users who have not updated. It can be retired only once those versions are no longer in use.
+>
+> New policy versions are authored in the main repository from now on. Do not add versions here.
 
 Public legal and customer-support pages for Loofit, operated by PhysiqueHub.
 
